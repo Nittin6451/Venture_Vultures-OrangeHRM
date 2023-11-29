@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestCucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 256.8 s <<< FAILURE! -- in runner.TestCucumberRunner
+runner.TestCucumberRunner.runScenario["Adding new user in PIM", "Acessing the new user"](9) -- Time elapsed: 20.39 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinition.StepDefinitionOfWebsite.user_is_able_to_see_the_new_employee_added_details(StepDefinitionOfWebsite.java:286)
+	at ✽.User is able to see the new employee added details(file:///C:/Final%20Project/Venture_Vultures/src/test/resources/Feature/PIM.feature:10)
+
+runner.TestCucumberRunner.runScenario["Adding new customer to project info", "Login an account in user website"](11) -- Time elapsed: 20.99 s <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinition.StepDefinitionOfWebsite.user_sees_the_added_customer_details(StepDefinitionOfWebsite.java:109)
+	at ✽.user sees the added customer details(file:///C:/Final%20Project/Venture_Vultures/src/test/resources/Feature/Time.feature:12)
+
