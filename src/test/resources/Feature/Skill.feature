@@ -1,4 +1,4 @@
-Feature: Login an account in user website
+Feature: Adding new skills in skill features
 
   Scenario Outline: Adding new skill
     Given User is on the Website homepage

@@ -1,4 +1,4 @@
- Feature: Acessing the new user
+ Feature: Adding new user in PIM features
 
   Scenario Outline: Adding new user in PIM
     Given User is on the Website homepage

@@ -1,4 +1,4 @@
-Feature: Login an account in user website
+Feature: Adding new customer in Time feature
 
   Scenario: Adding new customer to project info
     Given User is on the Website homepage

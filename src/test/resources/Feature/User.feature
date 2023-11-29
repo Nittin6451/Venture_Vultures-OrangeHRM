@@ -1,4 +1,4 @@
-Feature: Login an account in user website
+Feature: Checking the user enabled or not 
 
   Scenario: Checking User Status is Enabled or not
     Given User is on the Website homepage

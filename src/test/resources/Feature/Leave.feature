@@ -1,4 +1,4 @@
-Feature: Adding the leave reason
+Feature: Adding new leave type 
 
   Scenario Outline: Adding the leave details to the category
     Given User is on the Website homepage
