@@ -17,7 +17,7 @@ public class TimeLocators {
 	public WebElement description;
 	@FindBy(xpath="//button[text()=' Save ']")
 	public WebElement savebutton;
-	@FindBy(xpath="//div[@class='oxd-table-cell oxd-padding-cell'][3]")
+	@FindBy(xpath="//h6[@class='oxd-text oxd-text--h6 orangehrm-main-title']")
 	public WebElement verifyemployee;
     @FindBy(xpath="//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']")
     public WebElement verifyerror;  

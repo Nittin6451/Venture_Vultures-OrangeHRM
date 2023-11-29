@@ -47,7 +47,7 @@ public class PimActions {
 	// Method to read data from an Excel sheet
     public void excelsheetread(String sheetname, Integer rownumber) throws InvalidFormatException, IOException, InterruptedException {
         // Get data from the Excel sheet
-        List<Map<String, String>> testdata1 = fil.getData("C:\\Final Project\\Venture_Vultures\\src\\test\\resources\\Data.xlsx", sheetname);
+        List<Map<String, String>> testdata1 = fil.getData("C:\\Users\\vmalarvannan\\Downloads\\Venture_Vultures-OrangeHRM\\src\\test\\resources\\Data.xlsx", sheetname);
 
         // Get skill and description from the specified row
         String empfirstname = testdata1.get(rownumber).get("empfirstname");
@@ -85,7 +85,7 @@ public class PimActions {
 	
 	public void excelsheetreads(String sheetname, Integer rownumber) throws InvalidFormatException, IOException, InterruptedException {
         // Get data from the Excel sheet
-        List<Map<String, String>> testdata2 = fil.getData("C:\\Final Project\\Venture_Vultures\\src\\test\\resources\\Data.xlsx", sheetname);
+        List<Map<String, String>> testdata2 = fil.getData("C:\\Users\\vmalarvannan\\Downloads\\Venture_Vultures-OrangeHRM\\src\\test\\resources\\Data.xlsx", sheetname);
 
         // Get skill and description from the specified row
         String empusername = testdata2.get(rownumber).get("empusername");

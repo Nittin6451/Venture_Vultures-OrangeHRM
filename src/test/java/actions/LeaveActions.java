@@ -41,7 +41,6 @@ public class LeaveActions {
 		LeaveLoc.saveclick.click();
 	}
 	public String  getverifyleave()throws InterruptedException {
-//		Thread.sleep(5000);
 		HelperClass.wait.until(ExpectedConditions.visibilityOf(LeaveLoc.verifysavemessage));
 		return LeaveLoc.verifysavemessage.getText();
 	}
@@ -53,7 +52,7 @@ public class LeaveActions {
 	
     public void excelsheetread(String sheetname, Integer rownumber) throws InvalidFormatException, IOException, InterruptedException {
         // Get data from the Excel sheet
-        List<Map<String, String>> testdata = fil.getData("C:\\Final Project\\Venture_Vultures\\src\\test\\resources\\Data.xlsx", sheetname);
+        List<Map<String, String>> testdata = fil.getData("C:\\Users\\vmalarvannan\\Downloads\\Venture_Vultures-OrangeHRM\\src\\test\\resources\\Data.xlsx", sheetname);
 
         // Get skill and description from the specified row
         String LeaveType = testdata.get(rownumber).get("LeaveType");       

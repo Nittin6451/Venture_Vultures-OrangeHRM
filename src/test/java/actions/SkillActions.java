@@ -72,7 +72,7 @@ public class SkillActions {
     // Method to read data from an Excel sheet
     public void excelsheetread(String sheetname, Integer rownumber) throws InvalidFormatException, IOException {
         // Get data from the Excel sheet
-        List<Map<String, String>> testdata = fil.getData("C:\\Final Project\\Venture_Vultures\\src\\test\\resources\\Data.xlsx", sheetname);
+        List<Map<String, String>> testdata = fil.getData("C:\\Users\\vmalarvannan\\Downloads\\Venture_Vultures-OrangeHRM\\src\\test\\resources\\Data.xlsx", sheetname);
 
         // Get skill and description from the specified row
         String skill = testdata.get(rownumber).get("skill");

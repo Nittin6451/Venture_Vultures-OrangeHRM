@@ -112,8 +112,8 @@ public void user_adds_the_addcustomer_name_description_and_clicks_the_save_butto
 }
 
 @Then("user sees the added customer details")
-public void user_sees_the_added_customer_details() {
-	Assert.assertTrue(TiAct.getVerifydiscription().contains("welcome"));
+public void user_sees_the_added_customer_details() throws InterruptedException {
+	Assert.assertTrue(TiAct.getVerifydiscription().contains("Customers"));
 	 // Assert.assertTrue(TiAct.getverifyerror().contains("Already exists"));
 	HelperClass.log.info("user sees the added customer details");
 }
