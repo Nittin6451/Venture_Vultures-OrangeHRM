@@ -172,7 +172,7 @@ public void user_should_be_able_to_see_structure_added_sucessfully() {
 @When("User selects Job")
 public void user_selects_job() {
 	ADac.getJob();
-	HelperClass.log.info("");
+	HelperClass.log.info("User selects Job");
    
 }
 
