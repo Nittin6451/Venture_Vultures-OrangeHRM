@@ -20,6 +20,6 @@ public class HookClass {
 			final byte[] screenshot = ((TakesScreenshot) HelperClass.getDriver()).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(screenshot,"image/png",scenario.getName());
 		}
-		//HelperClass.tearDown();
+		HelperClass.tearDown();
 	}
 	}
