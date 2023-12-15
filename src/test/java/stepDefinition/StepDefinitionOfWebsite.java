@@ -22,7 +22,7 @@ import utility.HelperClass;
 import utility.Utility;
 
 public class StepDefinitionOfWebsite {
-	LoginActions logact = new LoginActions();
+	LoginActions logact = new LoginActions();;
 	Utility data = new Utility();
 	TimeActions TiAct = new TimeActions();
 	OrganisationtActions OrgAc = new OrganisationtActions();
